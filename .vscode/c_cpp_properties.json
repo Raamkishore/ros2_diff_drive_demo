@@ -1,0 +1,57 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/parallels/Desktop/dev_ws/install/velocity_controllers/include/**",
+        "/home/parallels/Desktop/dev_ws/install/transmission_interface/include/**",
+        "/home/parallels/Desktop/dev_ws/install/controller_manager/include/**",
+        "/home/parallels/Desktop/dev_ws/install/ros2_control_test_assets/include/**",
+        "/home/parallels/Desktop/dev_ws/install/ros2_control_demo_hardware/include/**",
+        "/home/parallels/Desktop/dev_ws/install/position_controllers/include/**",
+        "/home/parallels/Desktop/dev_ws/install/joint_trajectory_controller/include/**",
+        "/home/parallels/Desktop/dev_ws/install/joint_state_broadcaster/include/**",
+        "/home/parallels/Desktop/dev_ws/install/imu_sensor_broadcaster/include/**",
+        "/home/parallels/Desktop/dev_ws/install/gripper_controllers/include/**",
+        "/home/parallels/Desktop/dev_ws/install/effort_controllers/include/**",
+        "/home/parallels/Desktop/dev_ws/install/forward_command_controller/include/**",
+        "/home/parallels/Desktop/dev_ws/install/force_torque_sensor_broadcaster/include/**",
+        "/home/parallels/Desktop/dev_ws/install/diff_drive_controller/include/**",
+        "/home/parallels/Desktop/dev_ws/install/realtime_tools/include/**",
+        "/home/parallels/Desktop/dev_ws/install/controller_interface/include/**",
+        "/home/parallels/Desktop/dev_ws/install/hardware_interface/include/**",
+        "/home/parallels/Desktop/dev_ws/install/controller_manager_msgs/include/**",
+        "/home/parallels/Desktop/dev_ws/install/control_msgs/include/**",
+        "/opt/ros/galactic/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ign_ros2_control/include/**",
+        "/home/parallels/Desktop/dev_ws/src/realtime_tools/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_control/controller_interface/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_control/controller_manager/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_control/hardware_interface/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_control/ros2_control_test_assets/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_control/transmission_interface/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/diff_drive_controller/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/effort_controllers/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/forward_command_controller/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/gripper_controllers/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/imu_sensor_broadcaster/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/joint_state_broadcaster/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/joint_trajectory_controller/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/position_controllers/include/**",
+        "/home/parallels/Desktop/dev_ws/src/ros2_controllers/velocity_controllers/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-arm64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

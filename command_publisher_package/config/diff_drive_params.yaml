@@ -1,0 +1,4 @@
+diff_drive_command_publisher:
+  ros__parameters:
+    linear_velocity: 0.5
+    angular_velocity: 0.5
