@@ -62,6 +62,9 @@ class CyclicDiffDriveCommandPublisher(Node):
         self.i += 1
         self.i %= len(self.goals)
 
+        if self.i == 0:
+            raise Exception(f'End of positions!')
+
 
 def main(args=None):
     rclpy.init(args=args)
