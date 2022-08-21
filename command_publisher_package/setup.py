@@ -24,6 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': ['diff_drive_publisher_node = command_publisher_package.diff_drive_publisher_node:main',
+                            'cyclic_diff_drive_publisher_node = command_publisher_package.cyclic_diff_drive_publisher_node:main'
         ],
     },
 )
