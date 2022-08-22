@@ -69,3 +69,8 @@ cd dev_ws/src
  ```
 
  You can also provide your own number of positions inside the ```dev_ws/src/command_publisher_package/config/cyclic_diff_drive_params.yaml``` file. Make sure to build the packages again after editing the yaml file.
+
+ ## References
+
+ 1) [Gazebo Robot](https://github.com/ros-controls/gz_ros2_control)
+ 2) [Command Publisher](https://github.com/ros-controls/ros2_control_demos)
