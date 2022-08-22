@@ -8,7 +8,7 @@ The package ```ign_gazebo_robot_package``` is used to visualize the robot in Gaz
 
 ## command_publisher_package
 
-The package ```command_publisher_package``` is used to publish commands for the robot to move around. It uses the message type Twist to send commands. The differential drive robot take two parameters. The linear position along x axis and angular position along z axis.
+The package ```command_publisher_package``` is used to publish commands for the robot to move around. It uses the message type ```Twist``` to send commands. The differential drive robot takes two parameters, the linear position along x axis and angular position along z axis.
 
 ### yaml
 
