@@ -1,11 +1,28 @@
 # ros2_diff_drive_demo
 
+This repository will help you understand how to control a differential drive robot with ros2_control. There are two main packages used to view and control the robot.  
+
+## ign_gazebo_robot_package
+
+The package ```ign_gazebo_robot_package``` is used to visualize the robot in Gazebo and load the controllers to control the robot. The controller ```diff_drive_base_controller``` is used here to control the robot.  
+
+## command_publisher_package
+
+The package ```command_publisher_package``` is used to publish commands for the robot to move around. It uses the message type Twist to send commands. The differential drive robot take two parameters. The linear position along x axis and angular position along z axis.
+
+### yaml
+
+The command publishing package uses yaml file to load commands for the robot to move. The parameter ```goal_names``` of type STRING_ARRAY define how many positions has to be passed to the robot. The goal names are then used as parameters to define linear and angular values respectively.
+
+## Versions tested
+
 Please find below the versions where the packages have been tested
 
 OS : Ubuntu 20.04 \
-ROS2 : Galactic
+ROS2 : Galactic \
+Gazebo : Gazebo Edifice
 
-## Clone the package
+## Clone the repository
 
 Open terminal and follow the commands mentioned below
 
